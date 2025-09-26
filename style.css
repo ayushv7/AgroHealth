@@ -180,6 +180,7 @@ footer {
     border-radius: 8px;
     gap: 1rem;
     overflow:auto;
+    padding-left: 10px;
 }
 #cvr3 div{
     padding: 1rem;
@@ -191,18 +192,21 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
 }
 #p1{
     background-image: url('./p1.png');
     background-size: cover;
     height: 150px;
     border-radius: 6px;
+    z-index: 1;
 }
 #p2{
     background-image: url('./p2.png');
     background-size: cover;
     height: 150px;
     border-radius: 6px;
+    z-index: 1;
 }
 #more{
     background-color:#e0f2e9;
@@ -229,6 +233,7 @@ footer {
     color: #fff;
     padding: 0.3rem 0.6rem;
     border-radius: 6px;
+    z-index: 2;
     text-align: center;
 }
 #p1 #reach h1, #p2 #reach h1 {
@@ -236,7 +241,13 @@ footer {
     font-size: 1.1rem;
     color: #fff;
 }
-
+#p1 #reach:hover, #p2 #reach:hover {
+    background: #2e8b57;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateX(-50%) scale(1.2);
+    transform-origin: bottom center;
+    transition: all 0.2s;
+}
 @media (max-width: 700px) {
     nav #cover {
         display: none;
