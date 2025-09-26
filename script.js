@@ -19,3 +19,11 @@ document.addEventListener("DOMContentLoaded", function() {
 function s(){
         window.open("./chatbot.html", "_self");
     }
+function p(){
+    window.open("./cam.html", "_self");
+}
+const webcamElement = document.getElementById('webcam');
+const canvasElement = document.getElementById('canvas');
+const webcam = new Webcam(webcamElement, 'user', canvasElement);
+webcam.start();
+
