@@ -40,6 +40,7 @@ nav ul li a {
     font-weight: 500;
     transition: color 0.2s;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 nav ul li a:hover {
@@ -115,6 +116,7 @@ footer {
     margin: 0;
     font-size: 1.2rem;
     color: #2e8b57;
+    cursor: pointer;
 }       
 #cvr2:hover {
     background: #cceabb;
