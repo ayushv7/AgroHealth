@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     
 }
 body {
@@ -410,7 +409,7 @@ footer {
     #camcontainer{
         
     }
-    
+
     #webcam{
         height: 140%;
         width: 160%;
