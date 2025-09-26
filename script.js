@@ -31,3 +31,7 @@ webcam.start();
 function a(){
     window.open("./alerts.html", "_self");
 }
+
+function i(){
+    window.open("./info.html", "_self");
+}
