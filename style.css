@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+    cursor: default;
 }
 body {
     margin: 0;
@@ -17,6 +17,7 @@ nav {
     align-items: center;
     padding: 0.7rem 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    user-select: none;
 }
 
 nav .logo {
@@ -44,7 +45,8 @@ nav ul li a {
     font-weight: 500;
     transition: color 0.2s;
     font-size: 1.1rem;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
 }
 
 nav ul li a:hover {
@@ -75,18 +77,21 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
+    z-index: 20;
 }
 
 .hamburger {
     display: none;
     font-size: 2rem;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
 }
 
 #cvr1 {
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
+    user-select: none;
 }
 #cvr1 div {
     background: #e0f2e9;
@@ -115,13 +120,15 @@ footer {
     margin-top: 1rem;
     border-radius: 8px;
     background: #e0f2e9;
+    user-select: none;
 }
 
 #cvr2 div h1 {
     margin: 0;
     font-size: 1.2rem;
     color: #2e8b57;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
 }       
 #cvr2:hover {
     background: #cceabb;
@@ -137,6 +144,7 @@ footer {
     border-radius: 8px;
     height: 100px;
     background: #e0f2e9;
+    user-select: none;
 }
 #cvr4 h1 {
     margin: 0;
@@ -156,6 +164,7 @@ footer {
     margin-top: 1rem;
     border-radius: 8px;
     gap: 2rem;
+    user-select: none;
 }
 #cvr5 div {
     background: #e0f2e9;
@@ -323,7 +332,8 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 8px;
     font-size: 1rem;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
 }
 #sendBtn:hover{
     background: #246b45;
@@ -359,7 +369,8 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 60px;
     font-size: 1rem;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
     margin-top: 1rem;
     display: flex;
     width: 60%;
@@ -466,7 +477,8 @@ footer {
     }
     .hamburger {
         display: block;
-        cursor: pointer;
+        cursor: default;
+        user-select: none;
         font-size: 2rem;
     }
     .hamburger.fixed {
