@@ -17,5 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 function s(){
-        console.log("Clicked");
+        window.open("./chatbot.html", "_self");
     }
