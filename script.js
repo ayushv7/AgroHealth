@@ -27,3 +27,7 @@ const canvasElement = document.getElementById('canvas');
 const webcam = new Webcam(webcamElement, 'user', canvasElement);
 webcam.start();
 
+
+function a(){
+    window.open("./alerts.html", "_self");
+}
