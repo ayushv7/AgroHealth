@@ -407,9 +407,6 @@ footer {
     width: 110%;
 }
 @media (max-width: 560px) {
-    #camcontainer{
-        
-    }
 
     #webcam{
         height: 140%;
@@ -471,6 +468,11 @@ footer {
     #cvr5 div {
         width: 80%;
         min-width: unset;
+    }
+
+    #startButton, #captureButton, #resetButton{
+    height: 30px;
+    width: 70px;
     }
 
 }
