@@ -35,3 +35,6 @@ function a(){
 function i(){
     window.open("./info.html", "_self");
 }
+function aiad(){
+    window.open("./Aiad.html", "_self");
+}
